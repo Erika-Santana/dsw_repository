@@ -1,0 +1,14 @@
+package br.edu.ifsp.dws_1;
+
+public class Contato {
+	
+	private static Long ultimoId = 1L;
+
+	private Long id;
+	private String name;
+	private String phone;
+	private String email;
+	
+	
+
+}

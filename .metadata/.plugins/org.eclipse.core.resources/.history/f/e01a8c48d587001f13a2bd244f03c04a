@@ -1,0 +1,32 @@
+package br.edu.ifsp.dws_1;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+public class ContatosBean {
+	private List<Contato> contatos;
+	
+	public ContatosBean() {
+		contatos = new LinkedList<Contato>();
+	}
+	
+	public void insere(Contato contato) {
+		if (!contatos.contains(contato) && contato != null) {
+			contatos.add(contato);
+		}
+	}
+	
+	public void remove(Contato contato) {
+		if (contato != null) {
+			contatos.remove(contato);
+		}
+	}
+	
+	public Contato buscaPorId(Long id) {
+		return contatos.stream()
+				.filter(c -> c.getId() == id)
+				.findFirst()
+				.orElseThrow(() -> new NoSuchElementException("ID: " _+ id + " não existe na lista de contatos!"));
+	}
+}

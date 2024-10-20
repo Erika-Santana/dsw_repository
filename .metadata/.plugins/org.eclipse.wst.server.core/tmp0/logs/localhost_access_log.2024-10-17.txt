@@ -1,0 +1,5 @@
+127.0.0.1 - - [17/Oct/2024:08:22:13 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [17/Oct/2024:08:22:36 -0300] "GET /exerciciosDeFixacao/exercicio_3.jsp HTTP/1.1" 200 424
+0:0:0:0:0:0:0:1 - - [17/Oct/2024:08:22:37 -0300] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [17/Oct/2024:08:22:42 -0300] "GET /exerciciosDeFixacao/exercicio_3.jsp?texto_digitado=arara&button=Enviar HTTP/1.1" 200 448
+0:0:0:0:0:0:0:1 - - [17/Oct/2024:08:41:44 -0300] "GET /Agenda_De_Contatos/index.jsp HTTP/1.1" 500 2602

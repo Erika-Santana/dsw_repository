@@ -1,0 +1,12 @@
+package br.edu.ifsp.dws_1;
+
+public class Contato {
+
+	private String name;
+	private String phone;
+	private String email;
+	
+	public Contato() {
+		// TODO Auto-generated constructor stub
+	}
+}

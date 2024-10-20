@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="exercicio_2.jsp" method="post">
+		<label>Insira o primeiro valor:</label><br>
+		<input type="number" id="number_1" name="primeiroValor"><br>
+		<label>Insira o segundo valor:</label><br>
+		<input type="number" id="number_2" name="segundoValor"><br>
+		<label>Selecione a operação: </label><br>
+		<input type="checkbox" id="adicao" name="adicao" value="+">
+		<input type="checkbox" id="subtracao" name="subtracao" value="-">
+		<input type="checkbox" id="multiplicacao" name="multiplicacao" value="*">
+		<input type="checkbox" id="divisao" name="divisao" value="/">
+		
+	</form>
+
+	<%
+		int primeiroValor = Integer.valueOf(request.getParameter("primeiroValor"));
+		int segundoValor = Integer.valueOf(request.getParameter("segundoValor"));
+		
+		
+	%>
+
+	
+</body>
+</html>

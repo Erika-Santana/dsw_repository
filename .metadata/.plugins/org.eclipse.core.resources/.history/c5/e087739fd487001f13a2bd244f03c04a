@@ -1,0 +1,11 @@
+package br.edu.ifsp.dws_1;
+
+import java.util.List;
+
+public class ContatosBean {
+	private List<Contato> contatos;
+	
+	public ContatosBean() {
+		contatos = new LinkedList<Contato>();
+	}
+}

@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="exercicio_1" method="get">
+
+	<label>Insira seu nome:</label><br>
+	<input type="text" id="text_name" name="texto_nome" required="required"> <br>
+	
+	<label>Insira seu email:</label><br>
+	<input type="email" id="text_email" name="texto_email" required="required"><br>
+	
+	<label>Insira seu ano de nascimento:</label><br>
+	<input type="number" id="numero_nascimento" name="numero_nascimento" required="required"><br>
+	
+</form>
+
+</body>
+</html>

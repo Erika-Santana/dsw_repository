@@ -1,0 +1,13 @@
+127.0.0.1 - - [11/Oct/2024:08:40:01 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:08:40:03 -0300] "GET /exerciciosDeFixacao/exercicio_4.jsp HTTP/1.1" 200 784
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:08:40:04 -0300] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:08:40:09 -0300] "GET /exerciciosDeFixacao/exercicio_4.jsp?number=4&button=Enviar HTTP/1.1" 200 1503
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:08:41:25 -0300] "GET /exerciciosDeFixacao/exercicio_4.jsp?number=4&button=Enviar HTTP/1.1" 200 1503
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:08:41:35 -0300] "GET /exerciciosDeFixacao/exercicio_4.jsp HTTP/1.1" 200 784
+127.0.0.1 - - [11/Oct/2024:10:49:56 -0300] "GET / HTTP/1.1" 404 764
+127.0.0.1 - - [11/Oct/2024:10:52:11 -0300] "GET / HTTP/1.1" 404 764
+127.0.0.1 - - [11/Oct/2024:11:09:59 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:11:10:00 -0300] "GET /Agenda_De_Contatos/novo_contato.jsp HTTP/1.1" 500 2616
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:11:11:55 -0300] "GET /Agenda_De_Contatos/novo_contato.jsp HTTP/1.1" 500 2616
+0:0:0:0:0:0:0:1 - - [11/Oct/2024:11:12:28 -0300] "GET /Agenda_De_Contatos/index.jsp HTTP/1.1" 500 2602
+127.0.0.1 - - [11/Oct/2024:11:25:16 -0300] "GET / HTTP/1.1" 404 764

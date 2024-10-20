@@ -1,0 +1,15 @@
+INDEX VERSION 1.4+C:\Users\erika\Documents\QuartoSemestre\DSW-1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+803370561.index
+3737077134.index
+1702024608.index
+1326442128.index
+4005953615.index
+4144746783.index
+1176552651.index
+491047355.index
+2293751823.index
+2318744381.index
+2729530340.index
+800447939.index
+2570860878.index
+733103978.index
